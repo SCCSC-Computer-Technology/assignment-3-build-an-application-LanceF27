@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="stateInformation" Class="stateDataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\stateInformation.mdf;Integrated Security=True;Connect Timeout=30" SettingsObjectName="David_Hudgins_CPT_206_Lab2.Properties.Settings" SettingsPropertyName="stateInformationConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.STATE" Member="STATEs">
+    <Type Name="STATE">
+      <Column Name="POSTAL_CODE" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="STATE_NAME" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="CAPITAL" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="POPULATION" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="STATE_FLOWER" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="STATE_BIRD" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="STATE_COLORS" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="FIRST_LARGEST_CITY" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="SECOND_LARGEST_CITY" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="THIRD_LARGEST_CITY" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="MEDIAN_INCOME" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="COMPUTER_JOBS" Member="TECH_JOBS" Storage="_COMPUTER_JOBS" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="FLAG_DESC" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
